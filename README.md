@@ -15,7 +15,7 @@ AM Radio            ; #5be7ff
 Investigate         ; #fc0017
 FM Radio            ; #70c5ff
 # Frequency ; Name                     ; Modulation          ;  Bandwidth; Tags
-    13000000; Weird Popup              ; Demod Off           ;      10000; Recheck Result: Off
+    13000000; Investigate              ; Demod Off           ;      10000; Recheck Result: Off
     26500000; Investigate              ; Demod Off           ;          0; Untagged
     27000000; FM                       ; WFM (stereo)        ;     160000; FM Radio
 ```
@@ -42,7 +42,13 @@ I have also included a decompress binary or you can just type `compress -d <file
 
 ## To Start
 
-Double click on Gqrx.app, Gqrx-remote, and Gqrx-automation.
+Open terminal in the this folder and type
+
+```shell
+Gqrx-remote
+```
+
+Double click on Gqrx.app and Gqrx-automation.
 
 In Gqrx.app open IQ recorder through the menus or just press CMD+I
 
