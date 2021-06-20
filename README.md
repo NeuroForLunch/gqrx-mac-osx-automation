@@ -1,5 +1,7 @@
 # gqrx-mac-osx-automation
 
+Video Demonstration: https://www.youtube.com/watch?v=dWIt9EqDnPY
+
 ## Installation & Instructions
 
 Download Gqrx: https://github.com/csete/gqrx/releases/download/v2.14.4/Gqrx-2.14.4.dmg
@@ -54,8 +56,12 @@ In Gqrx.app open IQ recorder through the menus or just press CMD+I
 
 Position the windows like so:
 
-![](code/screenshot1.png)
+![](code/screenshot.png)
 
 Click on Gqrx and press CMD+D to start displaying data.
 
-Finally click on Run button in Automator.
+Click on the Run button in Automator and it will automatically go through your bookmarks and record them as per your settings.
+
+**Notes:**
+
+Open the other automation workflows that the daemon calls to change the duration of recording and to match up how many cycles with how many signals you want recorded.
